@@ -2,8 +2,7 @@
 Description=Keep active timer
 
 [Timer]
-OnUnitActiveSec=30s
-OnBootSec=30s
+OnCalendar=Mon,Tue,Wed,Thu,Fri *-*-* 9..17:*:00
 
 [Install]
 WantedBy=timers.target
