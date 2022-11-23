@@ -1,0 +1,6 @@
+[Unit]
+Description=Keep active job
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /usr/bin/keep-active.sh
